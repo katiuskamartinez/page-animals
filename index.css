@@ -49,6 +49,8 @@ html{
 }
 .article{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     height: 20vh;
 }
 .article p{
@@ -58,11 +60,11 @@ html{
 /*  ///////botton de scroll///////*/
 .scroll-top-btn{
     bottom: 1vh;
-    left: 2vw;
-    width: 2rem;
-    height: 2rem;
+    right: 1vw;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     background-color: chartreuse;
     color: black;
@@ -82,11 +84,13 @@ html{
 /*///footer///*/
 .footer{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     height: 10vh;
     background-color: chartreuse;
 }
-.pie{
-    margin-top: 20px;
+.footer small{
+    margin-top: 6vh;
     text-align: center;
 }
+
+
