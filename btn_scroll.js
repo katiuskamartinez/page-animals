@@ -1,9 +1,8 @@
 export default function btnScroll(btn){
     const $scrollBtn=document.querySelector(btn);
-
     window.addEventListener("scroll",e=>{
         let scrollTop=window.pageYOffset || document.documentElement.scrollTop;
-        if(scrollTop>500){
+        if(scrollTop>1000){
             $scrollBtn.classList.remove("hidden");
         }else{
             $scrollBtn.classList.add("hidden"); 
