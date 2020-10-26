@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ html{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: chartreuse;
+    background-color: #b6eb7a;
     height: 30vh;
     justify-content: center;
 }
@@ -33,8 +33,8 @@ html{
 }
 .animal{
     font-size: 150%;
-    color: chartreuse;
-    background-color: black;
+    color: #fff;
+    background-color: #000000;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease ease-out;
@@ -72,7 +72,7 @@ html{
     border-radius: 50%;
     font-size: 2rem;
     font-weight: bold;
-    background-color: chartreuse;
+    background-color:#b6eb7a;
     color: black;
     cursor: pointer;
     outline: 0;
@@ -80,7 +80,7 @@ html{
     transition: all 0.3s ease-out;
 }
 .scroll-top-btn:hover{
-    background-color: chartreuse;
+    background-color: #b6eb7a;
     color: cornsilk; 
 }
 .hidden{
@@ -92,7 +92,7 @@ html{
     display: flex;
     justify-content: center;
     height: 10vh;
-    background-color: chartreuse;
+    background-color: #b6eb7a ;
 }
 .footer small{
     margin-top: 6vh;
